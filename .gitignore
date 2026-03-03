@@ -40,7 +40,6 @@ Thumbs.db
 # Claude-specific files
 claude_compact_history.txt
 claude_compact_recent.txt
-CLAUDE.md
 TODO.md
 AGENTS.md
 info/

@@ -59,5 +59,5 @@ install:
 # Remove virtualenv and caches
 [group('lifecycle')]
 clean:
-    rm -rf .venv .pytest_cache .ruff_cache
+    rm -rf .venv .pytest_cache .ruff_cache .coverage
     find . -type d -name "__pycache__" -exec rm -r {} +

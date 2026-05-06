@@ -4,6 +4,8 @@ MCP server that exposes the Schwab brokerage API as Claude tools. Provides marke
 
 Fork of [jkoelker/schwab-mcp](https://github.com/jkoelker/schwab-mcp) at [jmccarrell/schwab-mcp](https://github.com/jmccarrell/schwab-mcp).
 
+> **Python invocation:** always `uv run python` — never bare `python`/`python3`. Package ops via `uv add`/`uv sync`. (Repo-wide; see top-level CLAUDE.md.)
+
 ## Tool Inventory
 
 ### Market Data (4 tools)
